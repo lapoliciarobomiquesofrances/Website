@@ -15,6 +15,10 @@
   color: var(--matejko06);
 }
 
+.footer .footer-sec-3 a:hover {
+  color: var(--matejko06-hovered);
+}
+
 @media screen and (max-width: 1300px) {
   #footer .footer-body {
     width: 100%;
