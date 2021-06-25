@@ -1,3 +1,0 @@
-#dc0700
-#ff0800 text
-#1e2327 background
