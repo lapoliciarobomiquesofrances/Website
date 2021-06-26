@@ -46,17 +46,37 @@ body {
   padding-bottom: 3vh;
 }
 
+.downtext {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+.downtext #downtext {
+  list-style: square;
+  padding-left: 3vh;
+  text-align: left;
+  padding-bottom: 3vh;
+}
+
+#downtext-container {
+  margin: 0 auto;
+  width: 60%;
+}
+
 @media screen and (max-width: 700px) {
   #PAGE .section-body {
     width: 80%;
   }
-  #changelog-container {
+  #downtext-container {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 550px) {
   #PAGE .section-body {
+    width: 90%;
+  }
+  #downtext-container {
     width: 90%;
   }
 }
