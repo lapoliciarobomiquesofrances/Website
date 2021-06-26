@@ -22,3 +22,74 @@
 <script>if (location.protocol !== 'https:') { location.replace(`https:${location.href.substring(location.protocol.length)}`); }</script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MatHax Client &bull; Discord</title>
+    <!--Discord Meta-->
+    <meta name="og:site_name" content="MatHax Client">
+    <meta name="og:type" content="object">
+	  <meta name="og:image" content="https://mathaxclient.xyz/assets/icon.png">
+    <meta name="og:title" content="Discord">
+    <meta name="og:url" content="https://mathaxclient.xyz">
+    <meta name="theme-color" content="#ff0000">
+    <meta name="og:description" content="MatHax is an advanced Minecraft utility mod for Fabric. Currently supports Fabric 1.16.5-1.17.">
+    <!--Other Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Stylesheets-->
+    <script src="https://kit.fontawesome.com/d5536945b2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://mathaxclient.xyz/assets/favicon.ico" type="image/png">
+    <link rel = "icon" href="https://mathaxclient.xyz/assets/icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://mathaxclient.xyz/css/main.css"/>
+    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/section.css"/>
+    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/navbar.css"/>
+    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/footer.css"/>
+    <link rel="stylesheet" href="https://mathaxclient.xyz/css/pages/404.css"/>
+  <body style="background-color:#e1e1e1;">
+    
+    <!--Navbar-Begin-->
+    <nav class="navbar">
+      <h1 class="nav-title">MATHAX</h1>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#projects">Projects</a></li>
+        <li><a href="/#about">About</a></li>
+        <li><a href="/FAQ">FAQ</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <!--Navbar-End-->
+
+    <!--Discord-Begin-->
+    <div class="section-container" id="PAGE">
+      <div class="section-body">
+        <h1 class="section-title" id="main-title">Discord</h1>
+        <i id="main-desc">You will be redirected in <strong id="countdown"></strong>...</i>
+      </div>
+    </div>
+    <!--Discord-End-->
+
+    <div class="footer">
+      <div class="footer-sec-1">Copyright &copy; 2021 mathaxclient.xyz | All Rights Reserved.</div>
+      <div class="footer-sec-3">Designed by <a class="seasnail" href="https://github.com/seasnail8169" target="_blank">seasnail</a>. Edited by <a class="matejko06" href="https://matejko06.github.io" target="_blank">Matejko06</a>.</div>
+    </div>
+    <script>if (location.protocol !== 'https:') { location.replace(`https:${location.href.substring(location.protocol.length)}`); }</script>
+    <script src="https://mathaxclient.xyz/js/main.js"></script>
+	  var timeleft = 3;
+<script>var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+    document.getElementById("countdown").innerHTML = "0";
+  } else {
+    document.getElementById("countdown").innerHTML = timeleft;
+  }
+  timeleft -= 1;
+}, 1000);</script>
+  </body>
+</html>
