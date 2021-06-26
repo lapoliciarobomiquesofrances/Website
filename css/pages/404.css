@@ -46,23 +46,6 @@ body {
   padding-bottom: 3vh;
 }
 
-#changelog {
-  background-color: var(--background-grey);
-  color: var(--text-light);
-}
-
-#changelog #changelog-list {
-  list-style: square;
-  padding-left: 3vh;
-  text-align: left;
-  padding-bottom: 3vh;
-}
-
-#changelog-container {
-  margin: 0 auto;
-  width: 60%;
-}
-
 @media screen and (max-width: 700px) {
   #PAGE .section-body {
     width: 80%;
@@ -74,9 +57,6 @@ body {
 
 @media screen and (max-width: 550px) {
   #PAGE .section-body {
-    width: 90%;
-  }
-  #changelog-container {
     width: 90%;
   }
 }
