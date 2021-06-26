@@ -16,7 +16,7 @@
     <!--Stylesheets-->
     <link rel="shortcut icon" href="https://mathaxclient.xyz/assets/favicon.ico" type="image/png">
     <link rel = "icon" href="https://mathaxclient.xyz/assets/icon.png" type = "image/x-icon">
-    <meta http-equiv="refresh" content="60; URL=https://discord.gg/kga6wu6EVM" />
+    <meta http-equiv="refresh" content="3; URL=https://discord.gg/kga6wu6EVM" />
 </head>
 <body style="background-color:#1e2327;">
 <script>if (location.protocol !== 'https:') { location.replace(`https:${location.href.substring(location.protocol.length)}`); }</script>
@@ -87,7 +87,7 @@ var downloadTimer = setInterval(function(){
     clearInterval(downloadTimer);
     document.getElementById("countdown").innerHTML = "0";
   } else {
-    document.getElementById("countdown").innerHTML = timeleft;
+    document.getElementById("countdown").innerHTML = " " + timeleft;
   }
   timeleft -= 1;
 }, 1000);</script>
