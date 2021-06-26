@@ -11,12 +11,20 @@
   color: var(--links);
 }
 
-.footer .footer-sec-3 a {
+.footer .footer-sec-3 .matejko06 {
   color: var(--matejko06);
 }
 
-.footer .footer-sec-3 a:hover {
+.footer .footer-sec-3 .matejko06:hover {
   color: var(--matejko06-hovered);
+}
+
+.footer .footer-sec-3 .seasnail {
+  color: var(--seasnail);
+}
+
+.footer .footer-sec-3 .seasnail:hover {
+  color: var(--seasnail-hovered);
 }
 
 @media screen and (max-width: 1300px) {
