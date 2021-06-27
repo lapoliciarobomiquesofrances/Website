@@ -1,218 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-  	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RSP1YDE0DY"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'G-RSP1YDE0DY');
-	</script>
-
     <meta charset="UTF-8" />
-    <title>MatHax Client &bull; Home</title>
-    <!--Discord Meta-->
+    <title>MatHax Client &bull; Maintenance</title>
+    <!--Discord Meta Start-->
     <meta name="og:site_name" content="MatHax Client">
     <meta name="og:type" content="object">
-    <meta name="og:image" content="https://mathaxclient.xyz/assets/icon.png">
-    <meta name="og:title" content="Home">
+    <meta name="og:image" content="resources/images/icon.png">
+    <meta name="og:title" content="Maintenance">
     <meta name="og:url" content="https://mathaxclient.xyz">
     <meta name="theme-color" content="#cc0000">
     <meta name="og:description" content="MatHax is an advanced Minecraft utility mod for Fabric. Currently supports Fabric 1.16.5-1.17.">
-    <!--Other Meta-->
-    <meta name="keywords" content="Minecraft, Minecraft, utility, mod, utility mod, client, utility client, Utility Mod, Utility Client, Mod, Utility, Client, Minecraft utility mod, Minecraft utility mod, MatHax, mathax, MatHax Client, mathax client, MatHax utility mod, mathax utility mod">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Stylesheets-->
-    <script src="https://kit.fontawesome.com/d5536945b2.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="https://mathaxclient.xyz/assets/favicon.ico" type="image/png">
-    <link rel = "icon" href="https://mathaxclient.xyz/assets/icon.png" type = "image/x-icon">
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/main.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/button.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/card.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/footer.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/logo-anim.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/navbar.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/section.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/elements/waves.css"/>
-    <link rel="stylesheet" href="https://mathaxclient.xyz/css/pages/index.css"/>
+    <!--Discord Meta End-->
+    <link rel="shortcut icon" href="resources/images/icon/favicon.ico" type="image/png">
+    <link rel = "icon" href="resources/images/icon/icon.png" type = "image/x-icon">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
+    <style type="text/css" media="screen">
+      body {
+        background-color: #2e2e2e;
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+
+      a { color: #4183c4; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+      h1 { color: white; width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
+      p { color: white; margin: 20px 0; line-height: 1.6; }
+
+      ul { list-style: none; margin: 25px 0; padding: 0; }
+      li { display: table-cell; font-weight: bold; width: 1%; }
+
+      .logo { display: inline-block; margin-top: 35px; }
+      .logo-img-2x { display: none; }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        .logo-img-1x { display: none; }
+        .logo-img-2x { display: inline-block; }
+      }
+
+      #suggestions {
+        margin-top: 35px;
+        color: #ccc;
+      }
+      #suggestions a {
+        color: #666666;
+        font-weight: 200;
+        font-size: 14px;
+        margin: 0 10px;
+      }
+
+    </style>
   </head>
-  <body style="background-color:#e1e1e1;;">
-    <nav class="navbar">
-      <h1 class="nav-title">MATHAX</h1>
-      <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#devs">Devs</a></li>
-        <li><a href="/FAQ">FAQ</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
-    <script src="https://mathaxclient.xyz/js/main.js"></script>
-    <!--Home-Begin-->
-    <div class="section-container" id="home">
-      <div class="section-body">
-        <div class="section-title">Welcome to</div>
-        <div class="logo-container">
-          <a href="/">
-            <img src="https://mathaxclient.xyz/assets/mathax.png" alt="MatHax">
-          </a>
-        </div>
-        <div class="section-desc"><a class="meteorclient" href="http://meteorclient.com">Meteor Client</a> FORK</div>
-        <div class="button-container">
-            <a href="/Discord" target="_blank" class="button" id="discord">
-              <i class="fab fa-discord"></i>
-              Discord
-            </a>
-            <!--<a href="/donate" target="_blank" class="button" id="paypal">
-              <i class="fab fa-paypal"></i>
-              Donate
-            </a>-->
-        </div>
-      </div>
-    </div>
-    <!--Home-End-->
+  <body>
 
-    <!--Client-Begin-->
-    <div id="about"></div>
-    <div class="section-container" id="client">
-      <div class="section-body">
-        <h1 class="section-title">MatHax Client</h1>
-        <div class="download">
-          <div class="section-desc">
-            <p>Download <strong>MatHax Client</strong> using the buttons below<!-- v0.0.7<br>Download Count: 0<br>Online Players: 0--></p>
-          </div>
-          <div class="button-container">
-	    <a href="https://mathaxclient.xyz/Download/Release/1-16-5/1-0-2/MatHax-1.0.2-Fabric_1.16.5.jar" target="_blank" class="button" id="download">
-              <i class="fas fa-arrow-circle-down"></i>
-              Release 1.16.5 [v1.0.2]
-            </a>
-            <a href="https://mathaxclient.xyz/Download/DevBuild/1-17/1-0-0/7/MatHax-1.0.0_DevBuild_7-Fabric_1.17.jar" target="_blank" class="button" id="download">
-              <i class="fas fa-arrow-circle-down"></i>
-              Latest 1.17 [Dev Build 7]
-            </a>
-          </div>
-        </div>
-        <div class="card-container">
-          <div class="card-outer">
-            <div class="card-inner" id="GUI">
-              <h1>GUI</h1>
-              <p>MatHax Client comes with an extremely customizable GUI and HUD giving you a beautiful but functional interface to interact with as well as the powerful macros system which allows you to change almost anything about the client in the press of a key.</p>
-            </div>
-          </div>
-          <div class="card-outer">
-            <div class="card-inner" id="combat">
-              <h1>Combat</h1>
-              <p>MatHax Client provides you with a wide range of cutting edge, original combat modules (AutoAnvil, AnchorAura, BedAura etc) as well as all of the classics you will find in any other client like CrystalAura and KillAura, giving you a large advantage in pvp and allowing you to explore the new combat metas.</p>
-            </div>
-          </div>
-          <div class="card-outer">
-            <div class="card-inner" id="render">
-              <h1>Render</h1>
-              <p>MatHax Client features extremely customizable render modules that are powered by clean and efficient rendering systems, in turn giving precise and high quality overlays that make the client feel incredibly modern and smooth.</p>
-            </div>
-          </div>
-          <div class="card-outer">
-            <div class="card-inner" id="utility">
-              <h1>Utility</h1>
-              <p>MatHax Client comes with a large number of unique cool utilities that make your life easier by allowing the client to do the boring bits for you. It also comes pre-built with <strong>Baritone intergration</strong> meaning it can easily be used as a standalone client.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="wave-transition">
-      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-          <defs>
-              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-          </defs>
-          <g class="parallax">
-              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(62,62,62,0.7" />
-              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(62,62,62,0.5)" />
-              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(62,62,62,0.3)" />
-              <use xlink:href="#gentle-wave" x="48" y="7" fill="#3e3e3e" />
-          </g>
-      </svg>
-    </div>
-    <!--Client-End-->
+    <div class="container">
 
-    <!--Server-Begin--> <!--
-    <div class="section-container" id="server">
-      <div class="section-body">
-        <div class="section-title">MatHax PvP</div>
-        <div class="section-desc">The MatHax PvP server is a 1.16 style combat server that features anchor, bed, and crystal PvP styles accessible to players on versions 1.14 and newer. This server also features a custom kit and duel plugin. The Nether and Overworld dimensions are also available as well as the numerous arenas in the said dimensions.</div>
-        <iframe class="section-iframe" src="https://namemc.com/server/pvp.mathaxclient.xyz/embed"></iframe>
-        <div class="section-image-slider">
-          <figure>
-            <img src="assets/slider/1.jpg" alt="slider image 1">
-            <img src="assets/slider/2.jpg" alt="slider image 2">
-            <img src="assets/slider/3.jpg" alt="slider image 3">
-            <img src="assets/slider/4.jpg" alt="slider image 4">
-            <img src="assets/slider/5.jpg" alt="slider image 5">
-            <img src="assets/slider/6.jpg" alt="slider image 6">
-            <img src="assets/slider/1.jpg" alt="slider image 1">
-          </figure>
-        </div>
-      </div>
-    </div> -->
-    <!--Server-End-->
- 
-    <!--Dev-Team-Begin-->
-    <div id="devs"></div>
-    <div class="section-container" id="dev-team">
-      <div class="section-body">
-        <h1 class="section-title">Dev Team</h1>
-        <div class="card-container">
-          <div class="card-outer">
-            <a href="https://matejko06.github.io">
-              <div class="card-inner">
-                <img class="card-img" src="https://cdn.discordapp.com/avatars/352165239044964391/f691352ef95ecdafcd7cb23d103cf911.png">
-                <h1>Matejko06</h1>
-                <p>Owner/Head Developer</p>
-              </div>
-            </a>
-          </div>
-          <div class="card-outer">
-            <a href="https://geekiecoder.github.io">
-              <div class="card-inner">
-                <img class="card-img" src="https://cdn.discordapp.com/avatars/527084146531500033/a_0b4e4f46bbc61b941eb7d353333ce94d.png">
-                <h1>GeekieCoder</h1>
-                <p>Developer</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="button-container">
-          <a href="/Discord" target="_blank" class="button" id="discord">
-            <i class="fab fa-discord"></i>
-            Discord
-          </a>
-       <!--<a href="/github" target="_blank" class="button" id="github">
-            <i class="fab fa-github"></i>
-            Github
-          </a>
-          <a href="/youtube" target="_blank" class="button" id="youtube">
-            <i class="fab fa-youtube"></i>
-            Youtube
-          </a>
-          <a href="/donate" target="_blank" class="button" id="paypal">
-            <i class="fab fa-paypal"></i>
-            Donate
-          </a>-->
-      </div>
-      </div>
-    </div>
-    <!--Dev-Team-End-->
+      <h1>MatHax Client</h1>
+      <p><strong>Maintenance</strong></p>
 
-    <div class="footer">
-      <div class="footer-sec-1">mathaxclient.xyz | <a class="meteorclient" href="http://meteorclient.com">Meteor Client</a> FORK</div>
-      <div class="footer-sec-3">Designed by <a class="seasnail" href="https://github.com/seasnail8169" target="_blank">seasnail</a>. Edited by <a class="matejko06" href="https://matejko06.github.io" target="_blank">Matejko06</a> & <a class="geekiecoder" href="https://geekiecoder.github.io" target="_blank">GeekieCoder</a>.</div>
+      <p>
+        The website is currently
+        being rewritten.
+      </p>
+
+      <p>
+        It may take up to 2 weeks to complete
+        because of our time...
+      </p>
+
+      <div id="suggestions">
+        <a href="https://mathaxclient.xyz">MatHax Client</a> &mdash;
+        <a href="https://meteorclient.com">Meteor Client</a>
+      </div>
+
+      <a href="/" class="logo logo-img-1x">
+        <img width="32" height="32" title="" alt="" src="resources/images/icon.png">
+      </a>
+
+      <a href="/" class="logo logo-img-2x">
+        <img width="32" height="32" title="" alt="" src="resources/images/icon.png">
+      </a>
     </div>
-    <script>if (location.protocol !== 'https:') { location.replace(`https:${location.href.substring(location.protocol.length)}`); }</script>
   </body>
 </html>
