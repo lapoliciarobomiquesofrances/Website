@@ -32,6 +32,14 @@
   --youtube: #ff0201;
 }
 
+.meteorclient {
+  color: var(--meteor);
+}
+
+.meteorclient:hover {
+  color: var(--meteor-hovered);
+}
+
 @font-face {
   font-family: "JetBrainsMono";
   src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2")
