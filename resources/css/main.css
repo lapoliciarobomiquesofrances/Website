@@ -2877,7 +2877,7 @@ input, select, textarea {
 		margin: 0;
 		position: absolute;
 		top: 50%;
-		left: 25%;
+		left: 35%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 	}
@@ -2894,7 +2894,7 @@ input, select, textarea {
 		margin: 0;
 		position: absolute;
 		top: 50%;
-		left: 25%;
+		left: 35%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		}
@@ -2944,7 +2944,7 @@ input, select, textarea {
 		margin: 0;
 		position: absolute;
 		top: 50%;
-		left: 50%;
+		left: 65%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		}
@@ -2963,34 +2963,6 @@ input, select, textarea {
 				background-color: #e13652;
 			}
 
-		input[type="submit"].discord,
-		input[type="reset"].discord,
-		input[type="button"].discord,
-		.button.discord {
-		background-color: #5865f2;
-		box-shadow: none;
-		color: #ffffff !important;
-		margin: 0;
-		position: absolute;
-		top: 50%;
-		left: 70%;
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		}
-
-			input[type="submit"].discord:hover,
-			input[type="reset"].discord:hover,
-			input[type="button"].discord:hover,
-			.button.discord:hover {
-				background-color: #404eed;
-			}
-
-			input[type="submit"].discord:active,
-			input[type="reset"].discord:active,
-			input[type="button"].discord:active,
-			.button.discord:active {
-				background-color: #404eed;
-			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
