@@ -2592,46 +2592,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-/* List */
-
-	ol {
-		list-style: decimal;
-		margin: 0 0 2em 0;
-		padding-left: 1.25em;
-	}
-
-		ol li {
-			padding-left: 0.25em;
-		}
-
-	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
-	}
-
-		ul li {
-			padding-left: 0.5em;
-		}
-
-		ul.alt {
-			list-style: none;
-			padding-left: 0;
-		}
-
-			ul.alt li {
-				border-top: solid 1px rgba(255, 255, 255, 0.3);
-				padding: 0.5em 0;
-			}
-
-				ul.alt li:first-child {
-					border-top: 0;
-					padding-top: 0;
-				}
-
-	dl {
-		margin: 0 0 2em 0;
-	}
 
 /* Icons */
 
@@ -2877,7 +2837,7 @@ input, select, textarea {
 		margin: 0;
 		position: absolute;
 		top: 50%;
-		left: 35%;
+		left: 43%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 	}
@@ -2944,7 +2904,7 @@ input, select, textarea {
 		margin: 0;
 		position: absolute;
 		top: 50%;
-		left: 65%;
+		left: 57%;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		}
@@ -3094,7 +3054,7 @@ input[type="button"],
 	color: #ffffff !important;
 	margin: 0;
 	position: absolute;
-	top: 60%;
+	top: 65%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
