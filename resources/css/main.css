@@ -3053,7 +3053,7 @@ input[type="button"],
 	margin: 0;
 	position: absolute;
 	top: 300%;
-	left: 60%;
+	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	}
