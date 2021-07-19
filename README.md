@@ -5,7 +5,8 @@
 
 This repository is hosting our WebSite, <a href="https://mathaxclient.xyz">mathaxclient.xyz</a>.
 
-MatHax is an advanced Minecraft utility mod for Fabric. Currently supports Fabric 1.17.1.
+MatHax is an advanced Minecraft utility mod for Fabric. Currently supports Fabric [NOT RELEASED]
+MatHax Legacy is an advanced Minecraft utility mod for Fabric. Currently supports Fabric 1.17.1.
 
-MatHax is an recoded version of Meteor Client by MineGame159, seasnail & squidoodly.
+MatHax Legacy is an recoded version of Meteor Client by MineGame159, seasnail & squidoodly.
 Edited and operated by Matejko06 & GeekieCoder.
