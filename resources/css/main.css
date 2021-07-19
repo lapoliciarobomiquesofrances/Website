@@ -2978,6 +2978,21 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+		input[type="submit"].discord,
+		input[type="reset"].discord,
+		input[type="button"].discord,
+		.button.discord {
+		background-color: #e44c65;
+		box-shadow: none;
+		color: #ffffff !important;
+		margin: 0;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		}
+
 
 
 
