@@ -2987,7 +2987,7 @@ input[type="button"],
 	white-space: nowrap;
 	margin: 0;
 	position: absolute;
-	top: 60%;
+	top: 65%;
 	left: 35%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -3054,7 +3054,7 @@ input[type="button"],
 	color: #ffffff !important;
 	margin: 0;
 	position: absolute;
-	top: 65%;
+	top: 68%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
