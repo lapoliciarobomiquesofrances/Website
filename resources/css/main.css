@@ -2187,6 +2187,12 @@ input, select, textarea {
 		margin: 0 0 1.5em 0;
 	}
 
+	header h1 + p {
+		font-size: 1.5em;
+		margin-top: -1em;
+		line-height: 1.75em;
+	}
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
