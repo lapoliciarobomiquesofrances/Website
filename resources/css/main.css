@@ -80,13 +80,74 @@ html, body {
 }
 
 p {
+  line-height: 150%;
   font-weight: 300;
   color: #a3a3a3;
 }
 
-a, a:hover {
+
+.meteorclient a {
+  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  border-bottom-color: transparent;
+  text-decoration: none; 
+  color:#9a03ff;
+}
+
+.meteorclient a:hover {
   text-decoration: none;
-  color: var(--primary-color);
+  color:#8400db;
+}
+
+.meteorclient a:active {
+  text-decoration: none;
+  color:#56008f;
+}
+
+
+.geekiecoder a {
+  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  border-bottom-color: transparent;
+  text-decoration: none; 
+  color:#61fff7;
+}
+
+.geekiecoder a:hover {
+  text-decoration: none;
+  color:#00d1c7;
+}
+
+.geekiecoder a:active {
+  text-decoration: none;
+  color:#00a8a0;
+}
+
+a {
+  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-bottom: dotted 1px;
+  border-bottom-color: transparent;
+  text-decoration: none; 
+  color:#e44c65;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#ff1a2d;
+}
+
+a:active {
+  text-decoration: none;
+  color:#e60000;
 }
 
 hr {
@@ -194,6 +255,21 @@ hr {
   transform: translate3D(0, -3px, 0);
 }
 
+.button--primary a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.button--primary a:hover {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.button--primary a:active {
+  text-decoration: none;
+  color:#ffffff;
+}
+
 .button--primary:hover::after {
   transform: rotate(90deg);
 }
@@ -207,6 +283,22 @@ hr {
 .button--secondary:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
+}
+
+
+.button--secondary a {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.button--secondary a:hover {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+.button--secondary a:active {
+  text-decoration: none;
+  color:#ffffff;
 }
 
 /* links */
