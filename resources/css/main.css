@@ -66,6 +66,11 @@
   background-color: #555;
 }
 
+/* copyrights */
+.copyright {
+  text-align: center;
+}
+
 /* normalized */
 html, body {
   padding: 0;
