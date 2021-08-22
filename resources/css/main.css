@@ -1,16 +1,16 @@
 /* css variables*/
 :root {
-  --primary-color: #e44c65;
-  --primary-color-light: #e44c65;
-  --accent-color: #e44c65;
-  --accent-color-light: #e44c65;
-  --accent-color-dark: #e44c65;
+  --primary-color: #e64c65;
+  --primary-color-light: #e64c65;
+  --accent-color: #e64c65;
+  --accent-color-light: #e64c65;
+  --accent-color-dark: #e64c65;
   --white-color: #ffffff;
-  --light-gray-color: #C6CBD1;
-  --medium-gray-color: #959DA5;
-  --dark-gray-color: #444D56; 
+  --light-gray-color: #c6cbd1;
+  --medium-gray-color: #959da5;
+  --dark-gray-color: #444d56; 
   --bg-color: #1c1d26;
-  --code-bg-color: #e44c65;
+  --code-bg-color: #e64c65;
 }
 
 /* Three columns side by side */
@@ -137,7 +137,7 @@ a {
   border-bottom: dotted 1px;
   border-bottom-color: transparent;
   text-decoration: none; 
-  color:#e44c65;
+  color:#)c65;
 }
 
 a:hover {
@@ -195,7 +195,7 @@ hr {
 
 .tab.active {
   border-bottom: 1px solid var(--primary-color);
-  color: #e44c65;
+  color: #e64c65;
   font-weight: 700;
   display: inline-block;
 }
