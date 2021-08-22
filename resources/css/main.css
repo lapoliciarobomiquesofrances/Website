@@ -9,7 +9,7 @@
   --light-gray-color: #c6cbd1;
   --medium-gray-color: #959da5;
   --dark-gray-color: #444d56; 
-  --bg-color: #1c1d26;
+  --bg-color: #1e1e2d;
   --code-bg-color: #e64c65;
 }
 
@@ -76,7 +76,7 @@ html, body {
   padding: 0;
   margin: 0;
   font-family: "Comfortaa";
-  background-color: #1c1d26;
+  background-color: #1e1e2d;
 }
 
 p {
