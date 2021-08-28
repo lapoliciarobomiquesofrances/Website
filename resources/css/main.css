@@ -97,38 +97,6 @@ p {
   color:#9a03ff;
 }
 
-.meteorclient a:hover {
-  text-decoration: none;
-  color:#8400db;
-}
-
-.meteorclient a:active {
-  text-decoration: none;
-  color:#56008f;
-}
-
-
-.geekiecoder a {
-  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  border-bottom: dotted 1px;
-  border-bottom-color: transparent;
-  text-decoration: none; 
-  color:#61fff7;
-}
-
-.geekiecoder a:hover {
-  text-decoration: none;
-  color:#00d1c7;
-}
-
-.geekiecoder a:active {
-  text-decoration: none;
-  color:#00a8a0;
-}
-
 a {
   -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
