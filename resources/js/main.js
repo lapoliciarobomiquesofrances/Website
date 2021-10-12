@@ -15,10 +15,7 @@ if (document.getElementsByClassName('text').length > 0) {
              
              
              
-             MatHax Legacy is an fork of Meteor client, an 1.17.1 Fabric Utility Client.
-             
-                          
-             Full description will be added on the final website.`;
+             New website is coming soon with a full description, resolution support, better graphics, functionality and more!`;
   var speed = 80;
 
   function typeItOut () {
