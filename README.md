@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-	Website for <a href="https://mathaxclient.xyz/">MatHax Client</a>.
+	Website for <a href="https://mathaxclient.xyz/">MatHax</a>.
 </p>
 
 <div align="center">
