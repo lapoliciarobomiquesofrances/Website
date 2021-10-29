@@ -51,7 +51,7 @@ $.firefly.random = function(max) {
 window.onload = function() {
   var site = document.getElementById('site').innerHTML;
   var compiled_site = Handlebars.compile(site);
-  document.getElementById('target').innerHTML = compiled_site();
+  document.getElementById('site-util').innerHTML = compiled_site();
 }
 
 $(document).ready(function() {

@@ -1,34 +1,49 @@
 <!DOCTYPE html>
 <head>
+  <!--** CHARSET - START **-->
   <meta charset="UTF-8" />
+  <!--** CHARSET - END **-->
 
+  <!--** TITLE - START **-->
   <title>MatHax &bull; Home</title>
+  <!--** TITLE - END **-->
   
+  <!--** DISCORD - START **-->
   <meta name="og:site_name" content="MatHax">
   <meta name="og:type" content="object">
   <meta name="og:image" content="https://mathaxclient.xyz/resources/images/icon.png">
   <meta name="og:title" content="Home">
   <meta name="og:description" content="A Minecraft 1.17.1 utility client for Fabric.">
   <meta name="og:url" content="https://mathaxclient.xyz">
-
   <meta name="theme-color" content="#e64b64">
+  <!--** DISCORD - END **-->
+
+  <!--** ICON - START **-->
   <link rel="shortcut icon" href="resources/images/icon.png">
+  <!--** ICON - END **-->
+
+  <!--** VIEWPORT - START **-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
+  <!--** SCRIPTS - START **-->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
   <script src="resources/js/main.js"></script>
+  <!--** SCRIPTS - END **-->
   
+  <!--** FONT AND CSS - START **-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa" />
   <link rel="stylesheet" href="resources/css/style.css">
+  <!--** FONT AND CSS - END **-->
 </head>
 
 <body>
-    
-  <div id="target"></div>
-  
+  <!--** UTILS - START **-->
+  <div id="site-util"></div>
   <script id="site" type="text/x-handlebars-template">
-   
+  <!--** UTILS - END **-->
+
+  <!--** TITLE - START **-->
   <header>
     <div class="hero" id="hero">
       <a href="/"><img alt="MatHax" title="MatHax" src="resources/images/icon.png" width="128px" height="128px" style="margin-bottom: 25px;"></a>
@@ -37,7 +52,9 @@
       <a href="https:///api.mathaxclient.xyz/Download/Legacy/1-17-1/MatHax_Legacy-v1.5.5-Fabric_1.17.1.jar" class="btn" style="margin-top: 150px; font-size: 1.5em; padding: 15px 40px;">Download [MatHax Legacy v1.5.5]</a>
     </div>
   </header>
+  <!--** TITLE - END **-->
   
+  <!--** NAVIGATION BAR - START **-->
   <section id="header" class="dark">
     <nav class="nav">
       <ul class="nav_links">
@@ -47,11 +64,13 @@
       </ul>
     </nav>
   </section>
+  <!--** NAVIGATION BAR - END **-->
 
+  <!--** ANNOUNCEMENTS - START **-->
   <section class="dark">
-    <h1>News & Announcements</h1>
-    <div id="news">
-      <div class="news-card">
+    <h1>Announcements</h1>
+    <div id="announcements">
+      <div class="announcements-card">
         <strong>New website</strong>
         <p>I finally released a beta version of our new website! I expect it to be completely ready within 2 months. Contact us on our <a href="/Discord">Discord</a> for support or help with installing as we didn't finish the download tutorial yet.</p>
         <p>I will be posting updates about both the client and the website on our <a href="/Discord">Discord</a> and maybe sometimes here.<br><br>
@@ -63,21 +82,36 @@
       </div>
     </div>
   </section>
-  
+  <!--** ANNOUNCEMENTS - END **-->
+
+  <!--** DEVELOPERS - START **-->
   <section class="light">
     <h1>Developers</h1>
     <div id="developers">
       <div class="developers-card shrink">  
-        <img src="https://avatars.githubusercontent.com/u/67696646?v=4">
+        <img src="https://cdn.discordapp.com/avatars/352165239044964391/f691352ef95ecdafcd7cb23d103cf911.png" width="128px" height="128px">
         <h3>Matejko06</h3> 
         <h4>Developer</h4>
       </div>
+      <div class="developers-card shrink">  
+        <img src="https://cdn.discordapp.com/avatars/434768278704095233/ef15cf8f71082ffdfceed1df9311906b.png" width="128px" height="128px">
+        <h3>Dubesh</h3> 
+        <h4>Web Developer</h4>
+      </div>
+      <div class="developers-card shrink">  
+        <img src="https://cdn.discordapp.com/avatars/527084146531500033/c62fa72de87a6649ff30f89f7d8b972c.png" width="128px" height="128px">
+        <h3>Geekie Coder</h3> 
+        <h4>Web Developer</h4>
+      </div>
     </div>
   </section>
+  <!--** DEVELOPERS - END **-->
 
+  <!--** COPYRIGHT - START **-->
   <footer>
     <a href="https://client.olliejw.me"><img alt="Made by OllieJW" title="Made by OllieJW" src="https://olliejw.me/img/ollie.jpg" style="height:4em"></a>
     <a href="/">MatHax &copy; 2021</a>
   </footer>
+  <!--** COPYRIGHT - END **-->
   </script>
 </body>
