@@ -131,6 +131,8 @@ hr {
 }
 
 #developers {
+	display: flex;
+	justify-content: center;
 	width: 75%;
 }
 
@@ -141,7 +143,6 @@ hr {
     padding: 1em;
     background: #efefef;
     text-align: center;
-	width: 18em;
 	border-radius: 1em;
 }
 
