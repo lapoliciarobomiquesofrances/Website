@@ -3,7 +3,7 @@
     images : [
       'resources/images/ez.png'
   ],
-    total : 25
+    total : 15
   };
 
   $.firefly = function(settings) {
@@ -55,5 +55,5 @@ window.onload = function() {
 }
 
 $(document).ready(function() {
-	$.firefly({images : ['resources/images/ez.png'],total : 25}); 	
+	$.firefly({images : ['resources/images/ez.png'],total : 15}); 	
 });
