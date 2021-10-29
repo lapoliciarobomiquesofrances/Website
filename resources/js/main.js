@@ -1,125 +1,59 @@
-// utilities
-var get = function (selector, scope) {
-  scope = scope ? scope : document;
-  return scope.querySelector(selector);
+(function($) {
+  var defaults = {
+    images : [
+      'resources/images/ez.png'
+  ],
+    total : 25
+  };
+
+  $.firefly = function(settings) {
+    $.firefly.settings = $.extend({}, defaults, settings);
+      if($.firefly.preloadImages()){
+        for (i = 0; i < $.firefly.settings.total; i++){
+          $.firefly.fly($.firefly.create($.firefly.settings.images[$.firefly.random(($.firefly.settings.images).length)]));
+        }
+      }
+    return;
+  };
+
+  $.firefly.create = function(img){
+    spark = $('<img>').attr({'src' : img}).hide();
+    $(document.body).append(spark);
+      return spark.css({
+        'position':'absolute',
+        'z-index': $.firefly.random(20),
+        top: $.firefly.random(($(window).height()-150)),
+        left: $.firefly.random(($(window).width()-150))
+        }).show();
+}
+
+$.firefly.fly = function(sp) {
+  $(sp).animate({
+    top: $.firefly.random(($(window).height()-150)),
+    left: $.firefly.random(($(window).width()-150))
+  }, (($.firefly.random(10) + 5) * 1100),function(){ $.firefly.fly(sp) } );
 };
 
-var getAll = function (selector, scope) {
-  scope = scope ? scope : document;
-  return scope.querySelectorAll(selector);
-};
-
-if (document.getElementsByClassName('text').length > 0) {
-  var i = 0;
-  var txt = `website show-description
-             
-             
-             
-             New website is coming soon with a full description, resolution support, better graphics, functionality and more!`;
-  var speed = 80;
-
-  function typeItOut () {
-    if (i < txt.length) {
-      document.getElementsByClassName('text')[0].innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeItOut, speed);
+$.firefly.preloadImages = function() {
+  var preloads = new Object();
+  for (i = 0; i < ($.firefly.settings.images).length; i++){
+      preloads[i] = new Image(); preloads[i].src = $.firefly.settings.images[i];
     }
-  }
-
-  setTimeout(typeItOut, 1800);
+  return true;
 }
 
-// toggle tabs on codeblock
-window.addEventListener("load", function() {
-  // get all tab_containers in the document
-  var tabContainers = getAll(".tab__container");
+$.firefly.random = function(max) {
+  return Math.ceil(Math.random() * max) - 1;
+}
 
-  // bind click event to each tab container
-  for (var i = 0; i < tabContainers.length; i++) {
-    get('.tab__menu', tabContainers[i]).addEventListener("click", tabClick);
-  }
+})(jQuery);
 
-  // each click event is scoped to the tab_container
-  function tabClick (event) {
-    var scope = event.currentTarget.parentNode;
-    var clickedTab = event.target;
-    var tabs = getAll('.tab', scope);
-    var panes = getAll('.tab__pane', scope);
-    var activePane = get(`.${clickedTab.getAttribute('data-tab')}`, scope);
+window.onload = function() {
+  var site = document.getElementById('site').innerHTML;
+  var compiled_site = Handlebars.compile(site);
+  document.getElementById('target').innerHTML = compiled_site();
+}
 
-    // remove all active tab classes
-    for (var i = 0; i < tabs.length; i++) {
-      tabs[i].classList.remove('active');
-    }
-
-    // remove all active pane classes
-    for (var i = 0; i < panes.length; i++) {
-      panes[i].classList.remove('active');
-    }
-
-    // apply active classes on desired tab and pane
-    clickedTab.classList.add('active');
-    activePane.classList.add('active');
-  }
+$(document).ready(function() {
+	$.firefly({images : ['resources/images/ez.png'],total : 25}); 	
 });
-
-//in page scrolling for documentaiton page
-var btns = getAll('.js-btn');
-var sections = getAll('.js-section');
-
-function setActiveLink(event) {
-  // remove all active tab classes
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].classList.remove('selected');
-  }
-
-  event.target.classList.add('selected');
-}
-
-function smoothScrollTo(i, event) {
-  var element = sections[i];
-  setActiveLink(event);
-
-  window.scrollTo({
-    'behavior': 'smooth',
-    'top': element.offsetTop - 20,
-    'left': 0
-  });
-}
-
-if (btns.length && sections.length > 0) {
-  for (var i = 0; i<btns.length; i++) {
-    btns[i].addEventListener('click', smoothScrollTo.bind(this,i));
-  }
-}
-
-// fix menu to page-top once user starts scrolling
-window.addEventListener('scroll', function () {
-  var docNav = get('.doc__nav > ul');
-
-  if( docNav) {
-    if (window.pageYOffset > 63) {
-      docNav.classList.add('fixed');
-    } else {
-      docNav.classList.remove('fixed');
-    }
-  }
-});
-
-// responsive navigation
-var topNav = get('.menu');
-var icon = get('.toggle');
-
-window.addEventListener('load', function(){
-  function showNav() {
-    if (topNav.className === 'menu') {
-      topNav.className += ' responsive';
-      icon.className += ' open';
-    } else {
-      topNav.className = 'menu';
-      icon.classList.remove('open');
-    }
-  }
-  icon.addEventListener('click', showNav);
-});
-
