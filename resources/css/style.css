@@ -216,10 +216,10 @@ hr {
 	color: var(--button-color);
 	text-decoration: none;
 	-webkit-transition: color 0.3s;
-    -moz-transition:    color 0.3s;
-    -ms-transition:     color 0.3s;
-    -o-transition:      color 0.3s;
-    transition:         color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 .announcements-card a:hover {
@@ -257,10 +257,10 @@ footer a {
 	color: #fff;
 	text-decoration: none;
 	-webkit-transition: color 0.3s;
-    -moz-transition:    color 0.3s;
-    -ms-transition:     color 0.3s;
-    -o-transition:      color 0.3s;
-    transition:         color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 footer a:hover {
