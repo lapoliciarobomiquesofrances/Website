@@ -234,10 +234,10 @@ hr {
 .vote-card {
 	display: inline-block;
 	margin: 1em;
-    position: relative;
-    padding: 1em;
-    background: #373b40;
-    text-align: center;
+  position: relative;
+  padding: 1em;
+  background: #373b40;
+  text-align: center;
 	width: 18em;
 	border-radius: 1em;
 }
