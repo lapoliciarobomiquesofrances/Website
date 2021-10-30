@@ -25,28 +25,28 @@ html, body {
 	max-height: 100%;
 	padding: 0px;
 	margin: 0px;
-	background: var(--dark-color);
+  scroll-behavior: smooth;
 	font-family: "Comfortaa";
+  background: linear-gradient(rgba(30,30,45,0.3), rgba(30,30,45,1)), url(../images/background.png) no-repeat center center;
+  background-size: cover;
 }
 
 .hero {
 	height: 100vh;
-    width: 100%;
-    background: linear-gradient(rgba(30,30,45,0.3), rgba(30,30,45,1)), url(../images/background.png) no-repeat center center;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    color: #fff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
 }
 
 h1 {
 	font-size: 4em;
 	margin: 0;
 	width: 100%;
-    text-align: center;
+  text-align: center;
 }
 
 h3 {
