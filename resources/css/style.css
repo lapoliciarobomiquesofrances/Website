@@ -43,6 +43,12 @@ html, body {
   color: #fff;
 }
 
+.hero-logo {
+  width: 125px;
+  height: 128px;
+  margin-bottom: 25px;
+}
+
 h1 {
 	font-size: 4em;
 	margin: 0;
@@ -255,6 +261,12 @@ hr {
 .button:hover {
 	background: var(--button-hover-color);
 	color: var(--button-hover-text-color);
+}
+
+.hero-button {
+  margin-top: 200px; 
+  font-size: 1.5em; 
+  padding: 15px 40px;
 }
 
 footer {
