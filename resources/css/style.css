@@ -10,6 +10,12 @@
 	
 	--button-hover-color: #fc2d4f;
 	--button-hover-text-color: #fff;
+
+  --discord-button-color: #7289da;
+	--discord-button-text-color: #fff;
+	
+	--discord-button-hover-color: #4967d4;
+	--discord-button-hover-text-color: #fff;
 	
 	--highlight-color: #e64b64;
 }
@@ -44,7 +50,7 @@ html, body {
 }
 
 .hero-logo {
-  width: 125px;
+  width: 128px;
   height: 128px;
   margin-bottom: 25px;
 }
@@ -264,9 +270,22 @@ hr {
 }
 
 .hero-button {
-  margin-top: 200px; 
+  margin-top: 250px; 
   font-size: 1.5em; 
   padding: 15px 40px;
+}
+
+.hero-button-discord {
+  background: var(--discord-button-color);
+	color: var(--discord-button-text-color);
+  margin-top: 25px; 
+  font-size: 1.5em; 
+  padding: 15px 40px;
+}
+
+.hero-button-discord:hover {
+	background: var(--discord-button-hover-color);
+	color: var(--discord-button-hover-text-color);
 }
 
 footer {
