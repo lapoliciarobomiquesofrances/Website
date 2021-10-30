@@ -37,8 +37,7 @@ html, body {
 }
 
 .hero {
-	height: 100vh;
-  width: 100%;  
+  width: 100%;
   background: linear-gradient(rgba(30,30,45,0.3), rgba(30,30,45,1)), url(../images/background.png) no-repeat center center;
   background-size: cover;
   text-align: center;
@@ -52,7 +51,38 @@ html, body {
 .hero-logo {
   width: 128px;
   height: 128px;
+  margin-top: 75px;
   margin-bottom: 25px;
+}
+
+.hero a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.hero a:hover {
+	color: var(--button-hover-color);
+}
+
+.hero-title-link a {
+  font-size: 4em;
+  font-weight: bold;
+	color: var(--button-color);
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.hero-title-link a:hover {
+	color: var(--button-hover-color);
 }
 
 h1 {
@@ -74,6 +104,14 @@ h3 {
   h3 {
     font-size: 1em;
   }
+}
+
+.space-10px {
+  margin-top: 10px;
+}
+
+.space-50px {
+  margin-top: 50px;
 }
 
 .highlight {
@@ -319,6 +357,10 @@ footer img {
   height: 4em;
 }
 
+.title-text {
+  padding-bottom: 25px;
+}
+
 #header {
 	box-sizing: border-box;
 	margin: 0;
@@ -397,6 +439,20 @@ footer img {
   }
 }
 
+.about a {
+	color: #000;
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.about a:hover {
+	color: var(--button-hover-color);
+}
+
 .enlarge {
 	transition: all .3s;
 }
@@ -412,6 +468,10 @@ footer img {
 .shrink:hover {
 	transform: scale(0.95);
     box-shadow: inset -7px -6px 20px 4px #cfcfcf;
+}
+
+.shrink-dark {
+	transition: all .3s;
 }
 
 .shrink-dark:hover {
