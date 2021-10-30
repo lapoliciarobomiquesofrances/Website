@@ -295,6 +295,11 @@ footer a:hover {
 	color: var(--button-hover-color);
 }
 
+footer img {
+  margin-bottom: 10px; 
+  height: 4em;
+}
+
 #header {
 	box-sizing: border-box;
 	margin: 0;
