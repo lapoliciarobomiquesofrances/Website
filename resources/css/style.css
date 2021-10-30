@@ -216,10 +216,10 @@ hr {
 	color: var(--button-color);
 	text-decoration: none;
 	-webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    -ms-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .announcements-card a:hover {
@@ -228,12 +228,12 @@ hr {
 }
 
 .button {
-    padding: 10px 25px;
-    background: var(--button-color);
-    color: var(--button-text-color);
-    display: inline-block;
-    border-radius: 1em;
-    transition: .3s;
+  padding: 10px 25px;
+  background: var(--button-color);
+  color: var(--button-text-color);
+  display: inline-block;
+  border-radius: 1em;
+  transition: .3s;
 	text-decoration: none;
 }
 
@@ -243,34 +243,29 @@ hr {
 }
 
 footer {
-    color: #fff;
+  text-align: center;
+  background: var(--dark-color);
+  padding: 30px 50px;
+}
+
+footer-text {
+  color: #fff;
 	text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background: var(--dark-color);
-    padding: 30px 50px;
+  background: transparent;
 }
 
 footer a {
 	color: #fff;
 	text-decoration: none;
 	-webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    -ms-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 footer a:hover {
 	color: var(--button-hover-color);
-}
-
-@media (min-width: 1200px) {
-  footer {
-    justify-content: space-between;
-  }
 }
 
 #header {
