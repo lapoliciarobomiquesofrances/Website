@@ -314,6 +314,10 @@ hr {
   padding: 15px 40px;
 }
 
+.hero-button:hover {
+	color: var(--button-hover-text-color);
+}
+
 .hero-button-discord {
   background: var(--discord-button-color);
 	color: var(--discord-button-text-color);
