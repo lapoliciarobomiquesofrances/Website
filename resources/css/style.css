@@ -56,20 +56,6 @@ html, body {
   margin-bottom: 25px;
 }
 
-.hero a {
-	color: #fff;
-	text-decoration: none;
-	-webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-.hero a:hover {
-	color: var(--button-hover-color);
-}
-
 .hero-title-link a {
   font-size: 4em;
   font-weight: bold;
@@ -84,6 +70,24 @@ html, body {
 
 .hero-title-link a:hover {
 	color: var(--button-hover-color);
+}
+
+.hero-subtitle-link a {
+	color: var(--button-text-color);
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.hero-subtitle-link a:hover {
+	color: var(--button-hover-color);
+}
+
+.hero-buttons-link a {
+	color: var(--button-text-color);
 }
 
 h1 {
@@ -305,6 +309,11 @@ hr {
   padding: 10px 25px;
   background: var(--button-color);
   color: var(--button-text-color);
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
   display: inline-block;
   border-radius: 1em;
   transition: .3s;
@@ -317,26 +326,47 @@ hr {
 }
 
 .hero-button {
+  padding: 15px 40px;
   margin-top: 250px; 
   font-size: 1.5em; 
-  padding: 15px 40px;
+  background: var(--button-color);
+  color: var(--button-text-color);
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  transition: .3s;
+	display: inline-block;
+  border-radius: 1em;
+  text-decoration: none;
 }
 
 .hero-button:hover {
-	color: var(--button-hover-text-color);
+	background: var(--button-hover-color);
+  color: var(--button-hover-text-color);
 }
 
-.hero-button-discord {
-  background: var(--discord-button-color);
-	color: var(--discord-button-text-color);
-  margin-top: 25px; 
-  font-size: 1.5em; 
+.button-discord {
   padding: 15px 40px;
+  font-size: 1.5em; 
+  margin-top: 25px; 
+  background: var(--discord-button-color);
+  color: var(--discord-button-text-color);
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+  transition: .3s;
+	display: inline-block;
+  border-radius: 1em;
+  text-decoration: none;
 }
 
-.hero-button-discord:hover {
+.button-discord:hover {
 	background: var(--discord-button-hover-color);
-	color: var(--discord-button-hover-text-color);
+  color: var(--discord-button-hover-text-color);
 }
 
 footer {
