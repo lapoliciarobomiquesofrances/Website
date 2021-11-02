@@ -25,21 +25,75 @@
 }
 
 html, body {
-	width: 100%;
-	max-width: 100%;
-	height: 100%;
-	max-height: 100%;
-	padding: 0px;
-	margin: 0px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  padding: 0px;
+  margin: 0px;
   scroll-behavior: smooth;
   background: var(--dark-color);
-	font-family: "Comfortaa";
+  font-family: "Comfortaa";
 }
+
+/* TODO: Disable scrolling when loading */
+
+.loader-container {
+  position: fixed;
+  z-index: 999999;
+  background: var(--dark-color);
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before, .loader:after {
+  content: '';
+  border: 1em solid var(--button-color);
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader:before {
+  animation-delay: .5s;
+}
+
+@keyframes loader {
+	0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
 
 .showcase {
   position: fixed;
-  left: 0;
   top: 0;
+  left: 0;
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -594,39 +648,39 @@ img:hover {
 
 @-webkit-keyframes ani-mouse {
 	0% {
-  	opacity: 1;
-  	top: 29%;
+  	    opacity: 1;
+  	    top: 29%;
 	}
 
 	15% {
-  	opacity: 1;
-  	top: 50%;
+  	    opacity: 1;
+    	top: 50%;
 	}
 
 	50% {
-  	opacity: 0;
-  	top: 50%;
+    	opacity: 0;
+    	top: 50%;
 	}
 
 	100% {
-  	opacity: 0;
-  	top: 29%;
+    	opacity: 0;
+    	top: 29%;
 	}
 }
 @-moz-keyframes ani-mouse {
 	0% {
-	  opacity: 1;
-	  top: 29%;
+		opacity: 1;
+	    top: 29%;
 	}
 
 	15% {
-  	opacity: 1;
-  	top: 50%;
+    	opacity: 1;
+    	top: 50%;
 	}
 
 	50% {
-   	opacity: 0;
-  	top: 50%;
+     	opacity: 0;
+    	top: 50%;
 	}
   
   100% {
@@ -637,23 +691,23 @@ img:hover {
 
 @keyframes ani-mouse {
 	0% {
-  	opacity: 1;
-  	top: 29%;
+    	opacity: 1;
+    	top: 30%;
 	}
 
 	15% {
-  	opacity: 1;
-  	top: 50%;
+    	opacity: 1;
+    	top: 50%;
 	}
 
 	50% {
-	  opacity: 0;
-  	top: 50%;
+    	opacity: 0;
+    	top: 50%;
 	}
 
 	100% {
-    opacity: 0;
-	  top: 29%;
+        opacity: 0;
+    	top: 30%;
 	}
 }
 
