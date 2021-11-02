@@ -36,10 +36,18 @@ html, body {
 	font-family: "Comfortaa";
 }
 
+.showcase {
+  position: fixed;
+}
+
+.content {
+  position: relative;
+}
+
 .hero {
   height: 100vh;
   width: 100%;  
-  background: linear-gradient(rgba(30,30,45,0.3), rgba(30,30,45,1)), url(../images/background.png) no-repeat center center;
+  background: linear-gradient(rgba(30,30,45,0.3), rgba(30,30,45,1)) no-repeat center center;
   background-size: cover;
   text-align: center;
   display: flex;
@@ -56,20 +64,21 @@ html, body {
   margin-bottom: 25px;
 }
 
-.hero-title-link a {
+.hero-title a {
   font-size: 4em;
   font-weight: bold;
 	color: var(--button-color);
 	text-decoration: none;
-	-webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  -ms-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
+	-webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
-.hero-title-link a:hover {
+.hero-title a:hover {
 	color: var(--button-hover-color);
+  text-shadow: 0px 0px 12px var(--button-color);
 }
 
 .hero-subtitle-link a {
@@ -279,10 +288,10 @@ hr {
 
 .announcements-card {
 	margin: auto;
-    position: relative;
-    padding: 1em;
-    background: #34393e;
-    text-align: center;
+  position: relative;
+  padding: 1em;
+  background: #34393e;
+  text-align: center;
 	border-radius: 1em;
 }
 
@@ -327,7 +336,7 @@ hr {
 
 .hero-button {
   padding: 15px 40px;
-  margin-top: 250px; 
+  margin-top: 125px; 
   font-size: 1.5em; 
   background: var(--button-color);
   color: var(--button-text-color);
