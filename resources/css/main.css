@@ -41,7 +41,7 @@ html, body {
 .loader-container {
   position: fixed;
   z-index: 999999;
-  /*background: var(--dark-color);*/
+  background: var(--dark-color);
   width: 100%;
   height: 100%;
 }
