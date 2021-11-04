@@ -118,10 +118,11 @@ html, body {
 }
 
 .hero-logo {
+  position: relative;
   width: 128px;
   height: 128px;
-  margin-top: 75px;
-  margin-bottom: 25px;
+  bottom: 15%;
+  left: calc(50% - 64px);
 }
 
 .hero-title a {
