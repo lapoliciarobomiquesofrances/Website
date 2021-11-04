@@ -41,7 +41,7 @@
 <body>
   <!--** LOADER - START **-->
   <div class="loader-container">
-    <div class="loader"></div>
+    <div class="loader"><div></div><div></div><div></div><div></div></div>
   </div>
   <!--** LOADER - END **-->
   
@@ -171,9 +171,9 @@
 
   <!--** LOADER JAVASCRIPT - START **-->
   <script>
-    setTimeout(function(){
+    $( document ).ready(function() {
       $('.loader-container').fadeToggle();
-    }, 1500);
+    });
   </script>
   <!--** LOADER JAVASCRIPT - END **-->
 </body>
