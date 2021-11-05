@@ -1,23 +1,23 @@
 :root {
-	--dark-color: #1e1e2d;
-	--dark-text-color: #fff;
-	
-	--light-color: #fff;
-	--light-text-color: #24272b;
-	
-	--button-color: #e64b64;
-	--button-text-color: #fff;
-	
-	--button-hover-color: #f02d4b;
-	--button-hover-text-color: #fff;
+  --dark-color: #1e1e2d;
+  --dark-text-color: #fff;
+
+  --light-color: #fff;
+  --light-text-color: #24272b;
+
+  --button-color: #e64b64;
+  --button-text-color: #fff;
+
+  --button-hover-color: #f02d4b;
+  --button-hover-text-color: #fff;
 
   --discord-button-color: #7289da;
-	--discord-button-text-color: #fff;
-	
-	--discord-button-hover-color: #4967d4;
-	--discord-button-hover-text-color: #fff;
-	
-	--highlight-color: #e64b64;
+  --discord-button-text-color: #fff;
+
+  --discord-button-hover-color: #4967d4;
+  --discord-button-hover-text-color: #fff;
+
+  --highlight-color: #e64b64;
 }
 
 *, *:before, *:after {
