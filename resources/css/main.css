@@ -204,6 +204,10 @@ h3 {
   margin-top: 50px;
 }
 
+.space-150px {
+  margin-top: 150px;
+}
+
 .space-250px {
   margin-top: 250px;
 }
@@ -211,6 +215,18 @@ h3 {
 .highlight {
 	color: var(--highlight-color);
 	font-weight: 700;
+}
+
+.shadow {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.shadow:hover {
+  text-shadow: 0px 0px 8px var(--button-color);
 }
 
 section {
@@ -386,6 +402,18 @@ hr {
 	text-decoration: none;
 }
 
+.added-icon {
+  color: #00d700;
+}
+
+.removed-icon {
+  color: #d71919;
+}
+
+.edited-icon {
+  color: #ffaf23;
+}
+
 .button {
   padding: 10px 25px;
   background: var(--button-color);
@@ -482,6 +510,7 @@ footer img {
 }
 
 .title-text {
+  text-transform: uppercase;
   padding-bottom: 25px;
 }
 
