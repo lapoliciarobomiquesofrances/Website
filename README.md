@@ -11,9 +11,9 @@
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/github/last-commit/Matejko06/MatHax-Website">
-  <img src="https://img.shields.io/github/commit-activity/m/Matejko06/MatHax-Website">
-  <img src="https://img.shields.io/github/languages/code-size/Matejko06/MatHax-Website">
-  <img src="https://img.shields.io/tokei/lines/github/Matejko06/MatHax-Website">
+  <img src="https://img.shields.io/github/last-commit/MatHax/Website">
+  <img src="https://img.shields.io/github/commit-activity/m/MatHax/Website">
+  <img src="https://img.shields.io/github/languages/code-size/MatHax/Website">
+  <img src="https://img.shields.io/tokei/lines/github/MatHax/Website">
   <a href="https://mathaxclient.xyz/Discord"><img src="https://img.shields.io/discord/823286525402939402"></a>
 </div>
