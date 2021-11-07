@@ -1,5 +1,6 @@
 :root {
   --dark-color: #1e1e2d;
+  --lighter-dark-color: #2d2d41;
   --dark-text-color: #fff;
 
   --light-color: #fff;
@@ -34,6 +35,23 @@ html, body {
   scroll-behavior: smooth;
   background: var(--dark-color);
   font-family: "Comfortaa";
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--lighter-dark-color);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--button-color); 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--button-hover-color); 
 }
 
 /* TODO: Disable scrolling when loading */
