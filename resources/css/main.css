@@ -420,6 +420,41 @@ hr {
 	text-decoration: none;
 }
 
+/**/
+
+#changelog {
+	width: 75%;
+}
+
+.changelog-card {
+	margin: auto;
+  position: relative;
+  padding: 1em;
+  color: var(--light-color);
+  background: var(--dark-color);
+  text-align: center;
+	border-radius: 1em;
+}
+
+.changelog-card h3 {
+	line-height: 0;
+}
+
+.changelog-card a {
+	color: var(--button-color);
+	text-decoration: none;
+	-webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.changelog-card a:hover {
+	color: var(--button-hover-color);
+	text-decoration: none;
+}
+
 .added-icon {
   color: #00d700;
 }
