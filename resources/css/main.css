@@ -113,8 +113,8 @@ html, body {
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 100%;
   width: auto;
+  min-height: 100%;
   height: auto;
 }
 
