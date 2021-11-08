@@ -532,19 +532,14 @@ hr {
 }
 
 footer {
+  color: #fff;
   text-align: center;
   background: var(--dark-color);
   padding: 30px 50px;
 }
 
-footer-text {
-  color: #fff;
-	text-align: center;
-  background: transparent;
-}
-
 footer a {
-	color: #fff;
+  color: #fff;
 	text-decoration: none;
 	-webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -554,7 +549,8 @@ footer a {
 }
 
 footer a:hover {
-	color: var(--button-hover-color);
+  color: var(--button-hover-color);
+  text-shadow: 0px 0px 12px var(--button-color);
 }
 
 footer img {
