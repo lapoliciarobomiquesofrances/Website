@@ -1,7 +1,10 @@
 RewriteEngine on
+CheckSpelling On 
+CheckCaseOnly On
+RewriteMap tolowercase int:tolower  
 
 RewriteCond $1 [A-Z]
-RewriteRule ^(.*)$ /${lowercase:$1} [R=301,L]
+RewriteRule ^(.*)$ ${tolowercase:$1}
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
 RewriteRule ^ /%1 [NC,L,R]
