@@ -35,6 +35,7 @@
 
   <!--** JAVASCRIPT - START **-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="resources/js/main.js"></script>
   <!--** JAVASCRIPT - END **-->
 </head>
 
@@ -46,12 +47,7 @@
   <!--** LOADER - END **-->
   
   <!--** SITE - START **-->
-  <div class="site">
-    <!--** SHOWCASE - START **-->
-    <video class="showcase" autoplay muted loop>
-      <source src="resources/videos/showcase.mp4" type="video/mp4">
-    </video>
-    <!--** SHOWCASE - END **-->
+  <div class="site" id="site">
 
     <!--** CONTENT - START **-->
     <div class="content">
@@ -199,12 +195,4 @@
     <!--** CONTENT - END **-->
   </div>
   <!--** SITE - END **-->
-
-  <!--** LOADER JAVASCRIPT - START **-->
-  <script>
-    $(document).ready(function() {
-      $('.loader-container').fadeToggle();
-    });
-  </script>
-  <!--** LOADER JAVASCRIPT - END **-->
 </body>
