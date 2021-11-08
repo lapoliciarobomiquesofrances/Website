@@ -38,19 +38,23 @@ html, body {
 }
 
 ::-webkit-scrollbar {
+  width: 0;
+}
+
+.loaded::-webkit-scrollbar {
   width: 15px;
 }
 
-::-webkit-scrollbar-track {
+.loaded::-webkit-scrollbar-track {
   background-color: var(--lighter-dark-color);
 }
  
-::-webkit-scrollbar-thumb {
+.loaded::-webkit-scrollbar-thumb {
   background: var(--button-color); 
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover {
+.loaded::-webkit-scrollbar-thumb:hover {
   background: var(--button-hover-color); 
 }
 
