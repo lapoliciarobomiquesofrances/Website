@@ -25,7 +25,7 @@ function finishLoad(){
 }
 
 $(document).ready(async function() {
-    if (!$("#site").hasClass("permanent-loader")){
+    if (!$("body")[0].hasClass("permanent-loader")){
         if (isMobile.any()) {
             $("#site").prepend('<img class="showcase" style="object-fit:cover; object-position:60%; height: 100vh; width: 100vw" alt="MatHax" title="Background" src="resources/images/background.png">');
             finishLoad()
