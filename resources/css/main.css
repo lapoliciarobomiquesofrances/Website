@@ -37,6 +37,12 @@ html, body {
   font-family: "Comfortaa";
 }
 
+/*/-------------------------------/*/
+/*/ TODO: When loading            /*/
+/*/ position: fixed;              /*/
+/*/ For body to disable scrolling /*/
+/*/-------------------------------/*/
+
 ::-webkit-scrollbar {
   width: 0;
 }
@@ -57,8 +63,6 @@ html, body {
 .loaded::-webkit-scrollbar-thumb:hover {
   background: var(--button-hover-color); 
 }
-
-/* TODO: Disable scrolling when loading */
 
 .loader-container {
   position: fixed;
