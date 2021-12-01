@@ -53,6 +53,7 @@ html, body {
 
 .loaded::-webkit-scrollbar-track {
   background-color: var(--lighter-dark-color);
+  border-radius: 100vw;
 }
  
 .loaded::-webkit-scrollbar-thumb {
