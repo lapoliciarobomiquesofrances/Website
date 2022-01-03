@@ -1,57 +1,39 @@
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-      
-        <!-- HTML Meta Tags -->
-        <title>Submit Your Cape</title>
-        <meta name="description" content="It's open the form to submit your favorite cape design">
+<head>
+  <!--** CHARSET - START **-->
+  <meta charset="UTF-8" />
+  <!--** CHARSET - END **-->
 
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="http://mathaxclient.xyz/add-cape.html/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Submit Your Cape">
-        <meta property="og:description" content="It's open the form to submit your favorite cape design">
-        <meta property="og:image" content="http://mathaxclient.xyz/resources/images/background.png">
+  <!--** TITLE - START **-->
+  <title>MatHax &bull; Add Cape</title>
+  <!--** TITLE - END **-->
+  
+  <!--** DISCORD - START **-->
+  <meta name="og:site_name" content="MatHax">
+  <meta name="og:type" content="object">
+  <meta name="og:image" content="https://mathaxclient.xyz/resources/images/icons/icon.png">
+  <meta name="og:title" content="Add Cape">
+  <meta name="og:description" content="A Minecraft 1.17.1-1.18.1 utility client for Fabric.">
+  <meta name="og:url" content="https://mathaxclient.xyz">
+  <meta name="theme-color" content="#e64b64">
+  <!--** DISCORD - END **-->
 
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="">
-        <meta property="twitter:url" content="http://mathaxclient.xyz/add-cape.html/">
-        <meta name="twitter:title" content="Submit Your Cape">
-        <meta name="twitter:description" content="It's open the form to submit your favorite cape design">
-        <meta name="twitter:image" content="http://mathaxclient.xyz/resources/images/background.png">
+  <!--** ICON - START **-->
+  <link rel="icon" href="resources/images/icons/icon.png">
+  <link rel="shortcut icon" href="resources/images/icons/icon.png">
+  <!--** ICON - END **-->
+  
+  <!--** FONT AND CSS - START **-->
+  <link rel="stylesheet" href="resources/css/main.css">
+  <!--** FONT AND CSS - END **-->
 
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        
-    </head>
-<body style="margin: 0">
-    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div style="height: 100vh; width: 100vw" id="player"></div>
-
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
-
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
-          videoId: 'dQw4w9WgXcQ',
-          events: {
-            'onReady': onPlayerReady
-          }
-        });
-      }
-
-      // 4. The API will call this function when the video player is ready.
-      function onPlayerReady(event) {
-        setTimeout(()=>{player.playVideo();},50)
-      }
-    </script>
-  </body>
-</html>
+  <!--** REDIRECT - START **-->
+  <meta http-equiv="refresh" content="0; URL=https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+  <!--** REDIRECT - END **-->
+</head>
+<body class="permanent-loader">
+  <!--** LOADER - START **-->
+  <div class="loader-container">
+    <div class="loader"><div></div><div></div><div></div><div></div></div>
+  </div>
+  <!--** LOADER - END **-->
+</body>
