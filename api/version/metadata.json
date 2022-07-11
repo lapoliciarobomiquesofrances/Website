@@ -1,3 +1,8 @@
 {
-    "1-19": "2.5.0"
+  "versions": [
+    {
+      "minecraft-version": "1.19",
+      "latest-version": "2.0.0"
+    }
+  ]
 }
