@@ -1,0 +1,22 @@
+{
+  "capes": [
+    {
+      "name": "Developer",
+      "url": "https://mathaxclient.xyz/api/capes/images/developer.png"
+    },
+    {
+      "name": "Regular",
+      "url": "https://mathaxclient.xyz/api/capes/images/regular.png"
+    }
+  ]
+  "players": [
+    {
+      "cape": "Developer",
+      "uuids": ["3e24ef27-e66d-45d2-bf4b-2c7ade68ff47", "7c73f844-73c3-3a7d-9978-004ba0a6436e"]
+    },
+    {
+      "cape": "Developer",
+      "uuids": ["2905e61c-5179-4d0d-967c-255a16287056", "4c3d2322-a3df-30fc-b371-837ba257ea37"]
+    }
+  ]
+}
